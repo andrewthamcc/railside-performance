@@ -1,0 +1,46 @@
+.header {
+  padding: 2rem 0;
+  background-color: #e22d23;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: sticky;
+  top: 0;
+  height: 5rem;
+  box-shadow: 0 10px 16px 0 rgba(55, 58, 75, 0.35);
+  display: flex;
+  align-items: center;
+
+  &-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-title {
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    &-list {
+      display: flex;
+      align-items: center;
+      letter-spacing: 1px;
+
+      &-item {
+        margin-left: 2rem;
+      }
+
+      a {
+        border-bottom: 2px solid transparent;
+
+        &:hover {
+          border-bottom: 2px solid #ffffff;
+        }
+      }
+    }
+  }
+
+  a {
+    color: #ffffff;
+  }
+}

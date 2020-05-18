@@ -1,0 +1,61 @@
+.contact {
+  height: 50vh;
+  padding: 8rem 0;
+  background-image: url("../assets/bg_subscribe.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 10px 10px #ffffff;
+
+  display: flex;
+  align-items: center;
+
+  &-title {
+    font-size: 3.5rem;
+    text-align: center;
+    position: relative;
+
+    &::after {
+      content: "";
+      background-color: #e22d23;
+      height: 4px;
+      width: 6rem;
+      position: absolute;
+      left: calc(50% - 3rem);
+      bottom: -1rem;
+    }
+  }
+
+  &-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 4rem;
+
+    li {
+      margin: 0 2rem;
+      transition: 0.3s transform ease;
+
+      &:hover {
+        transform: scale(1.3);
+      }
+    }
+  }
+
+  &-mail {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333333;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  a {
+    color: #333333;
+  }
+}
