@@ -203,7 +203,7 @@ html {
 }
 
 body {
-  font-family: "Teko", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   letter-spacing: 1px;
   opacity: 0;
@@ -293,7 +293,7 @@ img {
 
 .header-nav-title {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 1px;
 }
 
@@ -340,28 +340,31 @@ img {
   background-image: -webkit-gradient(linear, left top, right bottom, color-stop(60%, rgba(0, 0, 0, 0.3)), to(rgba(137, 137, 137, 0.4))), url("../assets/ducati.jpg");
   background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.3) 60%, rgba(137, 137, 137, 0.4)), url("../assets/ducati.jpg");
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 95vh;
-  background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   height: 95vh;
-}
-
-.hero-title {
-  height: 100%;
-  width: 50%;
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.hero-logo {
+  width: 300px;
+  margin-bottom: 4rem;
+}
+
+.hero-title {
+  width: 50%;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -376,7 +379,7 @@ img {
 
 .about-title {
   font-size: 3.5rem;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   width: 80%;
@@ -437,7 +440,7 @@ img {
 }
 
 .about-text-container p:last-of-type {
-  font-weight: 600;
+  font-weight: 700;
   color: #e22d23;
 }
 
@@ -465,6 +468,9 @@ img {
   }
   .about-gallery-image:first-of-type {
     display: none;
+  }
+  .about-gallery-image:nth-last-of-type(2) {
+    margin-left: 0;
   }
   .about-text-image {
     display: none;
@@ -525,7 +531,7 @@ img {
 
 .store-list-heading {
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
   margin: 4rem 0;
 }
@@ -538,7 +544,7 @@ img {
       flex-wrap: wrap;
   text-align: center;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 4rem;
 }
 
@@ -588,7 +594,7 @@ img {
 .store-links li a:last-of-type {
   color: #333333;
   margin-top: 2rem;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: underline;
 }
 
@@ -661,7 +667,7 @@ img {
 
 .contact-text {
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 4rem;
   text-align: center;
 }
@@ -697,7 +703,7 @@ img {
   text-align: center;
   margin-top: 4rem;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 700;
   color: #333333;
 }
 

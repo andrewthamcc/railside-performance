@@ -3,7 +3,7 @@
 
   &-title {
     font-size: 3.5rem;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     width: 80%;
@@ -55,7 +55,7 @@
       margin-bottom: 2rem;
 
       &:last-of-type {
-        font-weight: 600;
+        font-weight: 700;
         color: #e22d23;
       }
     }
@@ -86,6 +86,10 @@
 
     &:first-of-type {
       display: none;
+    }
+
+    &:nth-last-of-type(2) {
+      margin-left: 0;
     }
   }
 

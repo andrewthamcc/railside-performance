@@ -6,24 +6,22 @@
     ),
     url("../assets/ducati.jpg");
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 95vh;
-
-  // background-image: url("../assets/hero.jpg");
-  background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   height: 95vh;
 
-  &-title {
-    height: 100%;
-    width: 50%;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  &-logo {
+    width: 300px;
+    margin-bottom: 4rem;
+  }
+
+  &-title {
+    width: 50%;
   }
 }
 
