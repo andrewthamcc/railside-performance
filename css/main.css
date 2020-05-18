@@ -203,7 +203,9 @@ html {
 }
 
 body {
+  font-family: "Teko", sans-serif;
   font-size: 1.6rem;
+  letter-spacing: 1px;
 }
 
 h1,
@@ -414,8 +416,8 @@ img {
 }
 
 .about-text-container p:last-of-type {
-  font-style: italic;
   font-weight: 600;
+  color: #e22d23;
 }
 
 .about-text-image {
@@ -515,6 +517,7 @@ img {
       flex-wrap: wrap;
   text-align: center;
   font-size: 2rem;
+  font-weight: 600;
   margin-bottom: 4rem;
 }
 
