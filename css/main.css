@@ -496,10 +496,10 @@ img {
   content: "";
   background-color: #e22d23;
   height: 4px;
-  width: 6rem;
+  width: 10rem;
   position: absolute;
-  left: calc(50% - 3rem);
-  bottom: -1rem;
+  left: calc(50% - 5rem);
+  bottom: -2rem;
 }
 
 .store-list-heading {
@@ -632,10 +632,10 @@ img {
   content: "";
   background-color: #e22d23;
   height: 4px;
-  width: 6rem;
+  width: 10rem;
   position: absolute;
-  left: calc(50% - 3rem);
-  bottom: -1rem;
+  left: calc(50% - 5rem);
+  bottom: -2rem;
 }
 
 .contact-text {
