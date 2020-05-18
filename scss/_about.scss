@@ -98,3 +98,9 @@
     padding: 0;
   }
 }
+
+@media only screen and (max-width: 630px) {
+  .about-title {
+    font-size: 3rem;
+  }
+}

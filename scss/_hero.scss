@@ -1,16 +1,16 @@
 .hero {
-  // background-image: linear-gradient(
-  //     to bottom right,
-  //     rgba(0, 0, 0, 0.3) 60%,
-  //     rgba(137, 137, 137, 0.4)
-  //   ),
-  //   url("../assets/ducati.jpg");
-  // background-size: cover;
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // height: 100vh;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.3) 60%,
+      rgba(137, 137, 137, 0.4)
+    ),
+    url("../assets/ducati.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 95vh;
 
-  background-image: url("../assets/hero.jpg");
+  // background-image: url("../assets/hero.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;

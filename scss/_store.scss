@@ -59,14 +59,8 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      // border: 1px red solid;
-
-      img {
-        // height: 10rem;
-      }
 
       a:last-of-type {
-        // border: 1px blue solid;
         color: #333333;
         margin-top: 2rem;
         font-weight: 600;
@@ -77,6 +71,14 @@
 }
 
 @media only screen and (max-width: 630px) {
+  .store-title {
+    font-size: 3rem;
+  }
+
+  .store-list-heading {
+    font-size: 2.5rem;
+  }
+
   .store-list li {
     width: 50%;
 

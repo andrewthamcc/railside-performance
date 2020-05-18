@@ -314,7 +314,12 @@ img {
 }
 
 .hero {
-  background-image: url("../assets/hero.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(60%, rgba(0, 0, 0, 0.3)), to(rgba(137, 137, 137, 0.4))), url("../assets/ducati.jpg");
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.3) 60%, rgba(137, 137, 137, 0.4)), url("../assets/ducati.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 95vh;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -447,6 +452,12 @@ img {
   }
 }
 
+@media only screen and (max-width: 630px) {
+  .about-title {
+    font-size: 3rem;
+  }
+}
+
 .cruise {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url("../assets/cruise.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url("../assets/cruise.jpg");
@@ -558,6 +569,12 @@ img {
 }
 
 @media only screen and (max-width: 630px) {
+  .store-title {
+    font-size: 3rem;
+  }
+  .store-list-heading {
+    font-size: 2.5rem;
+  }
   .store-list li {
     width: 50%;
   }
@@ -666,6 +683,15 @@ img {
 
 .contact a {
   color: #333333;
+}
+
+@media only screen and (max-width: 630px) {
+  .contact-title {
+    font-size: 3rem;
+  }
+  .contact-text {
+    font-size: 2.5rem;
+  }
 }
 
 .footer {
