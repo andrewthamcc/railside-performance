@@ -5,5 +5,11 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 50vh;
-  margin-top: 20rem;
+  margin-top: 10rem;
+}
+
+@media only screen and (max-width: 630px) {
+  .cruise {
+    height: 35vh;
+  }
 }
